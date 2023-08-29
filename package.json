@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Mi portafolio | Jorge Herrera Nieto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "()\u001b[Dhttps://github.com/JorgeSHN14/portfolio.git)"
+  },
+  "author": "Jorge Herrera Nieto",
+  "license": "ISC",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}

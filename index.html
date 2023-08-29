@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./node_modules/eins-modal/dist/css/eins-modal.min.css">
     <title>Jorge Herrera Nieto | Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -105,7 +106,7 @@
             <hr/>
             <div>
                 <a>
-                    <img src="./assets/img/experience/1.svg" alt=""/>
+                    <img src="./assets/img/experience/1.svg" data-modal-id="myModal"/>
                     <h4>Primera experiencia</h4>
                 </a>
                 <a>
@@ -153,7 +154,17 @@
     <footer>
         <small>Developed and designed by Jorge Herrera Nieto. &copy;2023 All rights reserved.</small>
     </footer>
+    <div id="myModal" class="eins-modal">
+        <div class="eins-modal-content">
+          <div class="eins-modal-close"></div>
+      
+          Mi primer trabajo
+          
+          <button class="eins-modal-close-button">OK</button>
+        </div>
+      </div>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/fixed.js"></script>
+    <script src="./node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 </body>
 </html>
